@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-1{
+    height: 100px;
+    width: 250px;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+a{
+    padding: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+
+.title{
+    text-align: center;
+    display: block;
+}
+
+.h-title{
+    font-weight: 600;
+}
+
+input {
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+button {
+    margin: 10px;
+    padding: 5px 10px;
+    background: yellow;
+}
+
+
+.flex-x{
+    display: flex;
+    flex-direction: column;
+}
+
+
