@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-.header {
-}
 
 
 .flex{
@@ -25,6 +23,17 @@
 img{
     height: 100%;
     width: 100%;
+}
+
+input {
+    border-radius: 10px;
+    margin: 0 10px;
+}
+
+button {
+    margin: 50pxpx 0;
+    border-radius: 10px;
+    color: red;
 }
 
 a{
@@ -120,4 +129,16 @@ button {
     body {
       background-color: lightblue;
     }
+  }
+
+  footer {
+      text-align: center;
+  }
+
+  
+
+  .par2 {
+      color: white;
+      font-size: 25px;
+      font-weight: 600;
   }
