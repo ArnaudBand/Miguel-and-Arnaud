@@ -4,12 +4,17 @@
     box-sizing: border-box;
 }
 
+.header {
+}
 
 
 .flex{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background: cyan;
+    max-width: 900px;
+    margin: auto;
 }
 
 .flex-1{
@@ -23,7 +28,9 @@ img{
 }
 
 a{
+    display: inline;
     padding: 0 10px;
+    margin: 0 10px;
     text-decoration: none;
     color: black;
     font-size: 18px;
@@ -50,10 +57,67 @@ button {
     background: yellow;
 }
 
+.main-part {
+    max-width: 900px;
+    margin: auto;
+}
+
 
 .flex-x{
     display: flex;
     flex-direction: column;
 }
 
+.flex-x1 {
+    background: coral;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
 
+
+.flex-2{
+    background: cornsilk;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.bg-stack {
+    background: url(./images/photo-1564013799919-ab600027ffc6.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.menu {
+    display: none;
+}
+
+.flex-box {
+    display: flex;
+    justify-content: space-around;
+    top: 50px;
+    flex-wrap: wrap;
+}
+
+.titles {
+    padding: 10px 200px;
+    text-align: center;
+}
+
+.flex-box-1 {
+    padding: 80px;
+    background: rgba(0, 0, 0, .6);
+    border-radius: 10px;
+}
+
+.par12 {
+    text-align: center;
+}
+
+@media all  and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
